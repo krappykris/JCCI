@@ -9,7 +9,6 @@ import javax.swing.JFileChooser;
 
 
 public class ReadExcel {
-//	String csvToRead = null;
 	
 	BufferedReader buffRead = null;
 	String line = null;
@@ -17,7 +16,6 @@ public class ReadExcel {
 	String[] data = null;
 	
 	public ReadExcel() throws IOException{
-	importCSVFile();	
 	}
 	
 	public void importCSVFile() throws IOException
@@ -46,7 +44,4 @@ public class ReadExcel {
 		
 	}
 	
-	public static void main(String args[]) throws IOException{
-		ReadExcel object = new ReadExcel();
-	}
 }
